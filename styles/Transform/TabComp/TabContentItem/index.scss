@@ -1,0 +1,48 @@
+.transformTabContentWrapper {
+  .transformTabContentTextWrapper {
+    padding-top: 25px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+
+    h3 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #333;
+      font-family: Poppins, sans-serif;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #333;
+      padding: 28px 0;
+      line-height: 27px;
+    }
+  }
+
+  .transformTabContentImgWrapper {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .transformTabContentWrapper {
+    .transformTabContentTextWrapper {
+      text-align: center;
+
+      h3 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+    .transformTabContentImgWrapper {
+      margin-top: 5%;
+    }
+  }
+}

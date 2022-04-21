@@ -1,0 +1,134 @@
+.transformMainWrapper {
+  background-image: url(../../public/images/transformBg.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 15px 0 25px;
+  position: relative;
+  overflow: hidden;
+
+  .colWrapper {
+    & > div {
+      width: 70%;
+      margin-left: 125px;
+    }
+  }
+
+  &::before {
+    background-image: url(../../public/images/transformBg1.webp);
+    background-size: contain;
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 222px;
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    background-image: url(../../public/images/transformBg2.webp);
+    background-size: contain;
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 282px;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .textWrapper {
+    margin-left: 0;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+      color: #e5054a;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: Poppins, sans-serif;
+      margin: 0;
+      line-height: 35px;
+    }
+
+    h4 {
+      line-height: 29px;
+      color: #393939;
+      font-weight: 500;
+      margin: 0 0 13px;
+    }
+
+    p {
+      color: #666;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .transformMainWrapper {
+    text-align: center;
+    .textWrapper {
+      h4 {
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .transformMainWrapper {
+    .colWrapper {
+      & > div {
+        width: 100%;
+        margin-left: 22px;
+      }
+    }
+
+    .textWrapper {
+      h4,
+      p {
+        font-size: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .transformMainWrapper {
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+
+    .colWrapper {
+      & > div {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+
+    .textWrapper {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .transformMainWrapper {
+    .textWrapper {
+      h4 {
+        font-size: 90%;
+      }
+    }
+  }
+}

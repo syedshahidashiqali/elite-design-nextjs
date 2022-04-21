@@ -1,0 +1,87 @@
+.header {
+  background-color: #fff;
+  padding: 1% 0;
+}
+.logo video {
+  width: 100%;
+}
+.callright {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+
+  svg {
+    height: 1em;
+  }
+}
+.callTag > a > svg {
+  color: #ae3e94;
+  margin-right: 8px;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.callTag a span {
+  margin-right: 7px;
+  vertical-align: middle;
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+}
+.ChatLink a {
+  float: left;
+  border: 1px solid #40417b;
+  padding: 7px 15px;
+  border-radius: 50px;
+  position: relative;
+  text-decoration: none;
+}
+
+.ChatLink a span {
+  font-weight: 700;
+  color: #333;
+}
+.ChatLink a svg {
+  color: #ae3e94;
+  margin-right: 6px;
+}
+.ChatLink a:hover {
+  border: 1px solid #b23b93;
+  background-color: #b33b93;
+}
+.ChatLink a:hover span {
+  color: #fff;
+}
+.ChatLink a:hover svg {
+  color: #fff;
+}
+
+@media only screen and (max-width: 485px) {
+  .ChatLink a,
+  .callTag a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 367px) {
+  .ChatLink a,
+  .callTag a {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 367px) {
+  .ChatLink a,
+  .callTag a {
+    font-size: 9px;
+  }
+}
