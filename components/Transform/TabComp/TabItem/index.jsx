@@ -1,4 +1,5 @@
 import { Nav, Col } from "react-bootstrap";
+import Image from "next/image";
 
 function TabItem({ eventKey, img, text1, text2 }) {
   return (
@@ -6,7 +7,13 @@ function TabItem({ eventKey, img, text1, text2 }) {
       <Nav.Item>
         <Nav.Link eventKey={eventKey}>
           <div className="transformTabInnerWrapper">
-            <img src={img} alt="icon" />
+            <Image
+              layout="intrinsic"
+              width={40}
+              height={40}
+              src={img}
+              alt="icon"
+            />
             <span>
               {text1} <br /> {text2}
             </span>

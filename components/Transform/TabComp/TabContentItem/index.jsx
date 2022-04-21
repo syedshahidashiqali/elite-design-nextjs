@@ -1,6 +1,6 @@
-// import "./index.scss";
 import { Row, Col } from "react-bootstrap";
 import ButtonMain from "../../../ButtonMain";
+import Image from "next/image";
 
 function TabContentItem({ head, para, img, setShow }) {
   return (
@@ -23,7 +23,14 @@ function TabContentItem({ head, para, img, setShow }) {
             data-aos="fade-left"
             data-aos-duration="2000"
           >
-            <img className="img-fluid" src={img} alt="icon" />
+            <Image
+              layout="intrinsic"
+              width={250}
+              height={250}
+              className="img-fluid"
+              src={img}
+              alt="icon"
+            />
           </div>
         </Col>
       </Row>

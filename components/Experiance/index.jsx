@@ -1,5 +1,6 @@
 import styles from "./index.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
 
 function Experiance() {
   return (
@@ -15,11 +16,14 @@ function Experiance() {
           </Col>
           <Col md={9} sm={12} xs={12}>
             <div className={styles.experiancafterimg}>
-              <img
+              <Image
+                layout="responsive"
+                width={40}
+                height={5}
                 src="/images/stats.webp"
                 alt="Banner Image"
                 className="img-fluid"
-              ></img>
+              />
             </div>
           </Col>
         </Row>

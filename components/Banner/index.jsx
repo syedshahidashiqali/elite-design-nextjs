@@ -2,6 +2,7 @@ import styles from "./index.module.scss";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useRef } from "react";
 import axios from "axios";
+import Image from "next/image";
 
 function Banner({ setChatShow }) {
   const usernameRef = useRef(null);
@@ -77,7 +78,10 @@ function Banner({ setChatShow }) {
           </Col>
           <Col md={5} sm={12} xs={12}>
             <div className={styles.bannerimg}>
-              <img
+              <Image
+                layout="responsive"
+                width={250}
+                height={200}
                 src="/images/web1.webp"
                 alt="Banner Image"
                 className="img-fluid"

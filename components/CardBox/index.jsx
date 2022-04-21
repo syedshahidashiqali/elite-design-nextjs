@@ -1,5 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import styles from "./index.module.css";
+import Image from "next/image";
 
 function CardBox({
   ribbonTitle,
@@ -35,7 +36,14 @@ function CardBox({
           </Col>
           <Col lg={3} md={3} sm={3} xs={12}>
             <div className={styles.iconImg}>
-              <img src={iconImg} alt="icon" className="img-fluid" />
+              <Image
+                layout="responsive"
+                width={250}
+                height={200}
+                src={iconImg}
+                alt="icon"
+                className="img-fluid"
+              />
             </div>
           </Col>
         </Row>

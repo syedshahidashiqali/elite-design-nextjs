@@ -101,7 +101,7 @@ export default function CouponForm({ data, setData }) {
               textAlign: "left",
             }}
           >
-            By clicking "Sign Up Free" I agree to Terms of Service.
+            By clicking &quot;Sign Up Free&quot; I agree to Terms of Service.
           </span>
         </Col>
       </Form>

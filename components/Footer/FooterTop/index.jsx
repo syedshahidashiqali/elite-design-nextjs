@@ -8,6 +8,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 function FooterTop() {
   return (
@@ -16,7 +17,10 @@ function FooterTop() {
         <Row>
           <Col md={2} sm={2} xs={6}>
             <div className={styles.footerLogoWrapper}>
-              <img
+              <Image
+                layout="responsive"
+                width={90}
+                height={30}
                 className="img-fluid"
                 src="/images/footerLogo.webp"
                 alt="footer logo"
@@ -58,7 +62,10 @@ function FooterTop() {
                 Rated 4.9/5.0 by 300+ clients for Design and Marketing Services
                 on various platforms.
               </p>
-              <img
+              <Image
+                layout="responsive"
+                width={100}
+                height={15}
                 className="img-fluid"
                 src="/images/footerPartners.webp"
                 alt="footer brand"

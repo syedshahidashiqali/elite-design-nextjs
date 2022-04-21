@@ -1,12 +1,18 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Slider from "react-slick";
+import Image from "next/image";
 
 function BotSlider() {
   const settings = {
     customPaging: function (i) {
       return (
         <a>
-          <img src={`/images/sliderImages/sliderImg${i + 1}.webp`} />
+          <Image
+            src={`/images/sliderImages/sliderImg${i + 1}.webp`}
+            layout="responsive"
+            width={250}
+            height={200}
+          />
         </a>
       );
     },

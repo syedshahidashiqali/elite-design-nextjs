@@ -1,7 +1,7 @@
-// import "./index.scss";
 import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faComments } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 function TabContentItem({ head, para, imgs, setChatShow, setData, setShow }) {
   return (
@@ -17,15 +17,28 @@ function TabContentItem({ head, para, imgs, setChatShow, setData, setShow }) {
       <div className="tabContentImgsWrapper mt-5">
         <Row>
           <Col lg={6} md={6} sm={6} xs={12}>
-            <img className="img-fluid" src={imgs[0]} alt="service 1" />
+            <Image
+              layout="responsive"
+              width={100}
+              height={70}
+              className="img-fluid"
+              src={imgs[0]}
+              alt="service 1"
+            />
           </Col>
           <Col lg={6} md={6} sm={6} xs={12}>
-            <img className="img-fluid" src={imgs[1]} alt="service 2" />
+            <Image
+              layout="responsive"
+              width={100}
+              height={70}
+              className="img-fluid"
+              src={imgs[1]}
+              alt="service 2"
+            />
           </Col>
         </Row>
       </div>
       <div className="tabContentBtnsWrapper mt-5">
-        {/* <button className="tabContentFirstBtn">Learn More</button> */}
         <a href="" onClick={setChatShow}>
           <span className="d-flex ai-c">
             Click here to

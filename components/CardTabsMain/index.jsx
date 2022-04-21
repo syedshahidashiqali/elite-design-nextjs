@@ -26,7 +26,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Essential"
                   price="499"
                   delPrice="$1250.00"
-                  iconImg="images/icon1.webp"
+                  iconImg="/images/icon1.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -74,7 +74,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Team"
                   price="199"
                   delPrice="$500.00"
-                  iconImg="images/icon2.webp"
+                  iconImg="/images/icon2.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -130,7 +130,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Corporate"
                   price="699"
                   delPrice="$1750.00"
-                  iconImg="images/icon3.webp"
+                  iconImg="/images/icon3.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -190,7 +190,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Business"
                   price="1299"
                   delPrice="$3250.00"
-                  iconImg="images/icon1.webp"
+                  iconImg="/images/icon1.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -246,7 +246,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Enterprise"
                   price="1999"
                   delPrice="$5000.00"
-                  iconImg="images/icon2.webp"
+                  iconImg="/images/icon2.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -314,7 +314,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Elite"
                   price="2499"
                   delPrice="$6250.00"
-                  iconImg="images/icon3.webp"
+                  iconImg="/images/icon3.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -459,7 +459,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Essential"
                   price="499"
                   delPrice="$1250.00"
-                  iconImg="images/icon2.webp"
+                  iconImg="/images/icon2.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -507,7 +507,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Team"
                   price="199"
                   delPrice="$500.00"
-                  iconImg="images/icon2.webp"
+                  iconImg="/images/icon2.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -563,7 +563,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Corporate"
                   price="699"
                   delPrice="$1750.00"
-                  iconImg="images/icon3.webp"
+                  iconImg="/images/icon3.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -623,7 +623,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Business"
                   price="1299"
                   delPrice="$3250.00"
-                  iconImg="images/icon2.webp"
+                  iconImg="/images/icon2.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -679,7 +679,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Enterprise"
                   price="1999"
                   delPrice="$5000.00"
-                  iconImg="images/icon2.webp"
+                  iconImg="/images/icon2.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
@@ -747,7 +747,7 @@ function CardTabsMain({ setShow, setData, setChatShow }) {
                   ribbonTitle="Elite"
                   price="2499"
                   delPrice="$6250.00"
-                  iconImg="images/icon3.webp"
+                  iconImg="/images/icon3.webp"
                   setChatShow={setChatShow}
                 >
                   <li>
