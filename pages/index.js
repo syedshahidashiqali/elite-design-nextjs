@@ -39,7 +39,7 @@ export default function Home() {
         <link rel="shortcut icon" href="faveicon.png" type="image/x-icon" />
       </Head>
       <Header setChatShow={showChatHandler} />
-      <Banner setShow={setShow} setChatShow={showChatHandler} />
+      <Banner setChatShow={showChatHandler} />
       <Experiance />
       <HeadingCenter
         headFirst="Our Packages"
@@ -58,7 +58,11 @@ export default function Home() {
         setChatShow={showChatHandler}
       />
       <BrandingBanner setChatShow={showChatHandler} />
-      <WebDesIndustry setShow={setShow} setChatShow={showChatHandler} />
+      <WebDesIndustry
+        setShow={setShow}
+        setData={setData}
+        setChatShow={showChatHandler}
+      />
       <BrandingBanner setChatShow={showChatHandler} />
       <Portfolio setShow={setShow} />
       <Transform setShow={setShow} />
